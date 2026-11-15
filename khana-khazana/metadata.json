@@ -1,0 +1,6 @@
+{
+  "name": "Khana-Khajana",
+  "description": "Where Culinary Heritage Meets Autonomous Intelligence — Luxury restaurant & AI hospitality platform with A* table allocation, Bayesian turnover inference, multi-agent coordination, and grounded Maître D' intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

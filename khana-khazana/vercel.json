@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index?__path=$1"
+    },
+    {
+      "source": "/((?!api/|images/|assets/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
